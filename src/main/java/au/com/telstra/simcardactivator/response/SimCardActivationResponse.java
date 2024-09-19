@@ -5,4 +5,6 @@ import lombok.Data;
 @Data
 public class SimCardActivationResponse {
     private boolean success;
+
+    private boolean active;
 }
